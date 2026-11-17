@@ -1,0 +1,14 @@
+{
+  "name": "asteroid-miner",
+  "version": "0.1.0",
+  "description": "A short terminal game: steer a ship across an asteroid field, mine minerals, reach the goal before fuel runs out.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test"
+  }
+}
