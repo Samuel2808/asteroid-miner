@@ -1,0 +1,9 @@
+{
+  "name": "asteroid-miner-repo",
+  "private": true,
+  "description": "Forwards npm start and npm test to the game/ folder so they work from the repo root.",
+  "scripts": {
+    "start": "npm --prefix game start --",
+    "test": "npm --prefix game test"
+  }
+}
