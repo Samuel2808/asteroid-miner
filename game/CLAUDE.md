@@ -1,6 +1,7 @@
 # CLAUDE.md — Asteroid Miner
 
-All commands run from this `game/` folder.
+All commands run from this `game/` folder. `npm start` and `npm test` also
+work from the repo's top folder, whose `package.json` passes them on here.
 
 ## Commands
 

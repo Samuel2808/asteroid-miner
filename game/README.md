@@ -26,7 +26,8 @@ immediately. You don't need to press Enter.
 
 ## Run the game
 
-From this `game/` folder:
+From this `game/` folder, or from the repo's top folder, which passes the
+command on to `game/`:
 
 ```bash
 npm start
@@ -35,7 +36,7 @@ npm start
 To replay the same asteroid field, pass the seed shown at the top of the screen:
 
 ```bash
-node src/main.js --seed 42
+npm start -- --seed 42
 ```
 
 ## Run the tests
